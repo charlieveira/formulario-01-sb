@@ -1,0 +1,28 @@
+body{
+    background-image: url(./img/beach-sunset.png);
+    width: 100vw;
+}
+.form{    
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 300px;
+    gap: 20px;
+    color: #fff;    
+}
+.form h2{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+.form input, .form textarea, button{
+    padding: 10px;
+}
+
+input, textarea, button{
+    background-color: rgba(0, 255, 255, 0.363);    
+}
+input::placeholder, textarea::placeholder, button{
+    color: #ffffffaf;
+}
+
